@@ -1,0 +1,23 @@
+footer {
+  position: static;
+}
+
+.footer-distributed {
+  background-image: url(/assets/img/Шум_паттерн.png);
+  background-color: #3A3A3B;
+  background-repeat: repeat;
+}
+
+.footer-crm {
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-crm p {
+  font-size: 24px;
+  font-weight: 600;
+  color: #fff;
+  margin-top: 15px;
+}

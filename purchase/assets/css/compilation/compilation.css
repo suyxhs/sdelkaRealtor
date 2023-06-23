@@ -1,0 +1,116 @@
+.container-compilation {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+
+.container-card {
+    margin: 0 auto;
+    margin-top: 30px;
+    border: 1px solid var(--border-color);
+    border-radius: 16px;
+    object-fit: contain;
+    height: 190px;
+    width: 343px;
+    background: var(--blue);
+  }
+
+  .title-compilation {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    color: #3A3A3B;
+    margin-left: 20px;
+    text-transform: uppercase;
+  }
+
+  .content-card {
+    display: flex;
+  }
+
+  .left-card img {
+    position: relative;
+    bottom: 2px;
+    border-radius: 10px;
+  }
+
+  .right-card {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .selected-object {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 15px;
+  }
+
+  .selected-object img {
+    margin-right: 14px;
+  }
+
+  .info-selected {
+    font-size: 12px;
+    font-weight: 600;
+    color: #DADADB;
+  }
+
+  .info-selected span {
+    font-size: 24px;
+    font-weight: 600;
+    color: #FFFFFF;
+  }
+
+  .no-rating {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    margin-top: 15px;
+    right: 7px;
+  }
+
+  .no-rating img {
+    margin-right: 14px;
+  }
+
+  .info-rating {
+    font-size: 12px;
+    font-weight: 600;
+    color: #DADADB;
+  }
+
+  .info-rating span {
+    font-size: 24px;
+    font-weight: 600;
+    color: #FFFFFF;
+  }
+
+  .button-compilation.-white {
+    margin-top: 9px;
+    background: #fff;
+    color: #000;
+    border: 2px solid #3A3A3B;
+    border-width: 1px 3px 3px 1px;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+  }
+
+  .button-compilation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin: 3px;
+    padding: 5px 12px;
+    height: 40px;
+    width: 180px;
+    cursor: pointer;
+    user-select: none;
+    border-radius: 6px;
+    transition: all 150ms linear;
+    color: #fff;
+  }
