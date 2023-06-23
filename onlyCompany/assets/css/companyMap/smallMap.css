@@ -1,0 +1,35 @@
+.company-map {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.title-map {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 300px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 30px;
+  color: #000;
+  padding: 0 40px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+.content-map {
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 335px;
+  height: 190px;
+  margin-top: 10px;
+  border: 1px solid var(--border-color);
+  border-radius: 16px;
+  object-fit: contain;
+}

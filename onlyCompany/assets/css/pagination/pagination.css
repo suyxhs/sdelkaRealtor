@@ -1,0 +1,34 @@
+.pagination ul {
+    display: flex;
+    justify-content: center;
+    padding: 15px 20px;
+}
+
+.pagination ul li {
+    line-height: 50px;
+    margin: 0 5px;
+}
+
+.pagination ul li a {
+    display: block;
+    text-decoration: none;
+    color: #9C9C9C;
+    border-radius: 24px;
+}
+
+.pagination ul li.page {
+    width: 40px;
+    height: 30px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.pagination ul li.page.last {
+    margin-left: 30px;
+}
+
+.pagination ul li.page:hover a,
+.pagination ul li.page:active a {
+    border: 1px solid #DADADB;
+    color: #000;
+}
