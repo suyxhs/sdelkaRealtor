@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900;1000&family=Nunito+Sans:wght@200;300;400;500;600;700;800;900;1000&display=swap");
+@import url("/assets/css/header/header.css");
+@import url("/assets/css/footer/footer.css");
+@import url("/assets/css/cardCompany/card.css");
+@import url("/assets/css/runningLine/line.css");
+@import url("/assets/css/showcaseObject/object.css");
+@import url("/assets/css/search/search.css");
+@import url("/assets/css/pagination/pagination.css");
+
+:root {
+  --blue: #124bf6;
+  --gray: #9c9c9c;
+  --purple: #8962f8;
+  --yellow: #f6ed12;
+  --black: #3a3a3b;
+  --color-smoke: #e4e4e4;
+  --red: #f86247;
+  --pink: #fe54d9;
+  --color-snow: #ffffff;
+  --border-color: #dadadb;
+  --star-color: #9ff612;
+
+  --borderRadius: 36px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  transition: all 0.2s linear;
+  list-style: none;
+}
+
+body {
+  font-family: "Nunito Sans", sans-serif;
+  background-color: #f9f9f9;
+  width: 375px;
+  min-width: 100%;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  scroll-padding-top: 6rem;
+  scroll-behavior: smooth;
+}
+
+

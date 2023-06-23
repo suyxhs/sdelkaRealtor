@@ -1,0 +1,157 @@
+.container-showcase {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1px;
+  padding: 40px;
+}
+
+.title-showcase {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  color: #3a3a3b;
+}
+
+.title-showcase span {
+  color: #9c9c9c;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+  visibility: hidden;
+}
+
+.layout-buttons {
+  display: flex;
+  justify-content: space-around;
+  width: 170px;
+  padding: 10px 0;
+  border-radius: 100px;
+  background: #e8edff;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  margin-right: 10px;
+}
+
+input[type="radio"]:checked + label {
+  background: var(--blue);
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.checked-btn {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.container-object {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-slider {
+  margin: 0 auto;
+  border: 1px solid var(--border-color);
+  border-radius: 16px;
+  object-fit: contain;
+  margin-bottom: 16px;
+}
+
+.scroll-list {
+  width: 335px;
+}
+
+.subtitle-container {
+  margin-top: 20px;
+  margin-left: 15px;
+}
+
+.subtitle-container h3 {
+  font-size: 24px;
+  font-weight: 800;
+  color: #3a3a3b;
+  margin-bottom: 10px;
+}
+
+.subtitle-container span {
+  font-size: 16px;
+  font-weight: 400;
+  color: #3a3a3b;
+}
+
+.price-apart {
+  display: flex;
+  align-items: first baseline;
+  margin-top: 30px;
+  margin-left: 15px;
+}
+
+.price-apart img {
+  margin-right: 10px;
+}
+
+.price h3 {
+  font-size: 24px;
+  font-weight: 800;
+  color: #3a3a3b;
+  margin-bottom: 5px;
+}
+
+.price span {
+  font-size: 14px;
+  font-weight: 400;
+  color: #767676;
+}
+
+.more-object img {
+  position: relative;
+  width: 330px;
+}
+
+.more-info {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 230px;
+  left: 50px;
+  transform: matrix(0.98, -0.17, 0.17, 0.98, 0, 0);
+}
+
+.more-info a {
+  font-size: 16px;
+  font-weight: 400;
+  color: #3a3a3b;
+}
+
+.title-work {
+  margin: 0 auto;
+  margin-left: 20px;
+  margin-right: 4%;
+  margin-top: 30px;
+  padding: 20px;
+}
+
+.title-work p {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 30px;
+  color: #3a3a3b;
+  text-transform: uppercase;
+}
+
+.detail-order p {
+  font-size: 12px;
+  font-weight: 400;
+  color: #3a3a3b;
+}
+
+.detail-order .order {
+  margin-right: 12px;
+}
