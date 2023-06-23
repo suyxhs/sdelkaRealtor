@@ -1,0 +1,70 @@
+.title-staff {
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 30px;
+  color: #3a3a3b;
+  text-transform: uppercase;
+  max-width: 300px;
+}
+
+.container-staff {
+  display: flex;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  background: #ffffff;
+  border: 1px solid #dadadb;
+  border-radius: 16px;
+  height: 190px;
+}
+
+.rating-staff {
+  display: flex;
+}
+
+.rating-staff p {
+  font-size: 14px;
+  font-weight: 800;
+  color: #3a3a3b;
+  margin-right: 10px;
+}
+
+.name-comp {
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--blue);
+  margin-top: 13px;
+}
+
+.right-staff {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-top: 15px;
+}
+
+.name-staff h3 {
+  font-size: 18px;
+  font-weight: 800;
+  color: #3a3a3b;
+  margin-bottom: 5px;
+}
+
+.name-staff p {
+  font-size: 14px;
+  font-weight: 700;
+  color: #3a3a3b;
+  margin-bottom: 10px;
+}
+
+.prof-staff {
+  font-size: 12px;
+  font-weight: 400;
+  color: #9c9c9c;
+  margin-bottom: 10px;
+  width: 150px;
+}
