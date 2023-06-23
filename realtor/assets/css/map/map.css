@@ -1,0 +1,36 @@
+.map {
+    width: 335px;
+    height: 300px;
+    z-index: -1;
+    border-radius: 32px;
+    overflow: hidden;
+    transform: translate3d(0,0,0);
+}
+
+.map-container {
+    height: 370px;
+    background-color: #9FF612;
+    border-radius: 32px;
+    transform: translate3d(0,0,0);
+}
+
+.map_address {
+    width: 295px;
+    margin-left: 20px;
+    font-size: 14px;
+    color: #3A3A3B;
+    text-transform: capitalize;
+}
+
+
+.location-office .map {
+    font-size: 20px;
+    font-weight: 800;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+  }
+
+  [class*="ground-pane"] {
+    filter: grayscale(100%);
+  }

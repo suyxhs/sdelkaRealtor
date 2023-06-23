@@ -1,0 +1,75 @@
+.swiper{
+    width: 400px;
+  }
+  
+  .card{
+    padding: 10px;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .more-content  {
+    width: 50%;
+  }
+  
+  .more-content .firstImg {
+    position: fixed;
+    width: 200px;
+    height: 300px;
+  }
+  
+  .more-content .secondImg {
+    position: relative;
+    width: 275px;
+    height: 345px;
+  }
+  
+  section .card .image img{
+    height: 100%;
+    width: 100%;
+    border: 3px solid #fff;
+  }
+  
+  .card .name-profession{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 20px;
+    color: black;
+  } 
+  
+  .name-profession .name{
+    font-size: 20px;
+    font-weight: 600;
+  }
+  
+  .name-profession .profession{
+    font-size:14px;
+    font-weight: 300;
+    margin-top: 10px;
+  }
+  
+  .price {
+    display: flex;
+    color: #000;
+    margin-top: 30px;
+    margin-left: 20px;
+  }
+  
+  .price p {
+    font-size: 20px;
+    font-weight: 600;
+  }
+  
+  .price span {
+    font-size: 14px;
+    color: black;
+    font-weight: 300;
+    margin-top: 5px;
+  }
+  
+  .price .price-img {
+    padding-right: 3%;
+  }

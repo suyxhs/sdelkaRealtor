@@ -1,0 +1,46 @@
+.container-fish {
+  background-image: url(/assets/img/Union.png);
+  height: 316px;
+  padding: 20px;
+  margin-top: 30px;
+}
+
+.container-fish h3 {
+  font-family: 'Mulish';
+  font-weight: 900;
+  font-size: 30px;
+  color: #fff;
+  margin-top: 20px;
+  margin-bottom: 2px;
+  text-transform: uppercase;
+}
+
+.container-fish p {
+  font-family: 'Mulish';
+  font-weight: 900;
+  font-size: 30px;
+  color: #848484;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+
+.container-fish span {
+  font-family: 'Nunito Sans';
+  font-weight: 800;
+  font-size: 18px;
+  color: #fff;
+}
+
+.fish-banner {
+  font-family: 'Nunito Sans';
+  margin-top: 30px;
+  color: #3A3A3B;
+  font-size: 15px;
+  font-weight: 600;
+  background-color: #fff;
+  border: 2px solid #848484;
+  border-width: 1px 3px 3px 1px;
+  border-radius: 5px;
+  text-align: center;
+  width: 132px;
+} 

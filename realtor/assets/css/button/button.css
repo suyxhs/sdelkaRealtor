@@ -1,0 +1,79 @@
+.container {
+  width: 100%;
+  padding: 20px;
+}
+
+.button-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.button {
+  display: flex;
+  overflow: hidden;
+  margin: 3px;
+  padding: 5px 12px;
+  cursor: pointer;
+  user-select: none;
+  transition: all 150ms linear;
+  text-align: center;
+  white-space: nowrap;
+  text-decoration: none !important;
+  text-transform: none;
+  color: #fff;
+  border: 0 none;
+  border-radius: var(--borderRadius);
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 1.3;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+
+  &:hover {
+    transition: all 150ms linear;
+
+    opacity: 0.85;
+  }
+
+  &:active {
+    transition: all 150ms linear;
+    opacity: 0.75;
+  }
+
+  &:focus {
+    outline: 1px dotted #959595;
+    outline-offset: -4px;
+  }
+}
+
+.button.-purple {
+  background: var(--purple);
+  border: 2px solid var(--blue);
+  border-width: 1px 3px 3px 1px;
+}
+
+.button.-purple p {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.button.-yellow {
+  color: black;
+  background: var(--yellow);
+  border: 2px solid var(--red);
+  border-width: 1px 3px 3px 1px;
+
+  &:focus {
+    outline: 100px dotted black;
+    outline-offset: -4px;
+  }
+}
+
+.button.-black {
+  background: var(--black);
+  border: 2px solid var(--pink);
+  border-width: 1px 3px 3px 1px;
+}

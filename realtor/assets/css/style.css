@@ -1,0 +1,513 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900;1000&family=Nunito+Sans:wght@200;300;400;500;600;700;800;900;1000&display=swap");
+@import "/assets/css/header/header.css";
+@import "/assets/css/button/button.css";
+@import "/assets/css/realtor-Info/awards.css";
+@import "/assets/css/realtor-Info/realtorCard.css";
+@import "/assets/css/realtor-Info/detailRealtor.css";
+@import "/assets/css/rating/rating.css";
+@import "/assets/css/sliderFlat/slider.css";
+@import "/assets/css/sliderFlat/filters.css";
+@import "/assets/css/bunnerFish/bunnerFish.css";
+@import "/assets/css/bunnerRealtor/bannerRealtor.css";
+@import "/assets/img/Шум.png";
+@import "/assets/css/footer/footer.css";
+@import "/assets/css/map/map.css";
+
+:root {
+  --blue: #124bf6;
+  --gray: #9c9c9c;
+  --purple: #8962f8;
+  --yellow: #f6ed12;
+  --black: #3a3a3b;
+  --color-smoke: #e4e4e4;
+  --red: #f86247;
+  --pink: #fe54d9;
+  --color-snow: #ffffff;
+  --border-color: #dadadb;
+  --star-color: #9ff612;
+
+  --borderRadius: 36px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+
+*::selection {
+  background: var(--blue);
+  color: #fff;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  scroll-padding-top: 6rem;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Nunito Sans", sans-serif;
+  background-color: #f9f9f9;
+}
+
+hr {
+  border: none;
+  color: #c4c4c5;
+  background-color: #c4c4c5;
+  height: 2px;
+}
+
+/*accordion update*/
+.container-accordion {
+  padding: 35px;
+  max-width: 800px;
+}
+
+.container-accordion .box {
+  margin-bottom: 30px;
+  font-size: 24px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.container-accordion .box:last-child {
+  margin-bottom: 0;
+}
+
+.container-accordion .box span {
+  color: #848484;
+  margin-right: 2%;
+}
+
+.content-accordion {
+  transition: 0.3s ease-in-out;
+  max-height: 0;
+  overflow: hidden;
+}
+
+.about-realtor {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-realtor .title-info h2 {
+  margin-top: 60px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  color: #3a3a3b;
+  font-family: 'Mulish';
+  font-weight: 900;
+  font-size: 30px;
+}
+
+.about-realtor .title-info .surname {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 30px;
+  color: #3a3a3b;
+  margin-top: 18px;
+}
+
+.about-realtor .title-info .name p {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  color: #3a3a3b;
+  margin-top: 3px;
+}
+
+.about-realtor .title-info .profession-realtor p {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 18px;
+  margin-top: 10px;
+}
+
+.about-realtor .main-info {
+  width: 100%;
+  padding: 20px;
+}
+
+.about-realtor .main-info .real-estate {
+  display: flex;
+  align-items: flex-start;
+}
+
+.about-realtor .main-info .real-estate .detail-info h3 {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 18px;
+}
+
+.about-realtor .main-info .real-estate img {
+  margin-right: 15px;
+}
+
+.about-realtor .main-info .real-estate .detail-info ul li {
+  font-size: 14px;
+  list-style-type: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.about-realtor .main-info .info-realtor {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 30px;
+}
+
+.about-realtor .main-info .info-realtor img {
+  margin-right: 15px;
+}
+
+.about-realtor .main-info .info-detail h3 {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 18px;
+  margin-bottom: 12px;
+}
+
+.about-realtor .main-info .info-detail p {
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.container-showcase {
+  display: flex;
+  flex-direction: column;
+  margin-top: 60px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.title-showcase {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  color: #3a3a3b;
+}
+
+.title-showcase span {
+  color: #9c9c9c;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+  visibility: hidden;
+}
+
+.layout-buttons {
+  display: flex;
+  justify-content: space-around;
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  width: 182px;
+  padding: 10px 0;
+  border-radius: 100px;
+  background: #e8edff;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+input[type="radio"]:checked + label {
+  background: var(--blue);
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.checked-btn {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+/*scroll apart*/
+
+.container-slider {
+  margin: 0 auto;
+  border: 1px solid var(--border-color);
+  border-radius: 16px;
+  object-fit: contain;
+  width: 335px;
+  height: 445px;
+  margin-bottom: 24px;
+  margin-left: 20px;
+}
+
+.scroll-list {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+
+.scroll-list .scroll {
+  display: inline-block;
+}
+
+.subtitle-container {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.subtitle-container h3 {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  color: #3a3a3b;
+  margin-bottom: 10px;
+}
+
+.subtitle-container span {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #3a3a3b;
+}
+
+.price-apart {
+  display: flex;
+  align-items: first baseline;
+  margin-left: 20px;
+}
+
+.price {
+  display: flex;
+  flex-direction: column;
+}
+
+.price h3 {
+  font-size: 24px;
+  font-weight: 800;
+  color: #3a3a3b;
+  margin-bottom: 5px;
+}
+
+.price span {
+  font-size: 14px;
+  font-weight: 400;
+  color: #767676;
+}
+
+.more-object img {
+  position: relative;
+  width: 330px;
+}
+
+.more-info {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 230px;
+  left: 50px;
+  transform: matrix(0.98, -0.17, 0.17, 0.98, 0, 0);
+}
+
+.more-info a {
+  font-size: 16px;
+  font-weight: 400;
+  color: #3a3a3b;
+}
+
+.more-info {
+  color: #000;
+  background-color: var(--star-color);
+  border: 2px solid var(--black);
+  border-width: 1px 3px 3px 1px;
+  border-radius: 5px;
+  text-align: center;
+  width: 147px;
+}
+
+.container {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  height: 100%;
+  padding: 0 15px;
+}
+
+.navbar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 75px;
+  background: var(--blue);
+  z-index: 10;
+}
+
+.logo {
+  position: relative;
+  padding: 25px;
+}
+
+.navbar__wrap i {
+  position: relative;
+  padding: 25px;
+  font-size: 1.5rem;
+}
+
+.navbar__wrap {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.hamb {
+  display: none;
+}
+
+.popup {
+  display: none;
+}
+
+.logo img {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+}
+
+.menu > li > a {
+  text-decoration: none;
+}
+
+.navbar__wrap .menu {
+  display: flex;
+}
+
+.navbar__wrap .menu > li {
+  display: flex;
+  align-items: stretch;
+}
+
+.navbar__wrap .menu > li > a {
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.navbar__wrap .menu > li > a:hover {
+  color: rgba(255, 255, 255, 1);
+}
+
+
+
+@media (max-width: 1000px) {
+  .navbar__wrap .menu {
+    display: none;
+  }
+
+  .hamb {
+    display: flex;
+    align-items: center;
+  }
+
+  .hamb__field {
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+
+  .bar {
+    display: block;
+    width: 30px;
+    height: 3px;
+    margin: 6px auto;
+    background-color: #fff;
+    transition: 0.2s;
+  }
+
+  .popup {
+    position: fixed;
+    top: 75px;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    z-index: 100;
+    display: flex;
+    transition: 0.3s;
+  }
+
+  .popup.open {
+    left: 0;
+  }
+
+  .popup .menu {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    padding: 100px 0;
+    overflow: auto;
+  }
+
+  .popup .menu > li {
+    width: 100%;
+  }
+
+  .popup .menu > li > a {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    font-size: 24px;
+    font-weight: bold;
+    color: #3f3f3f;
+  }
+
+  .popup .menu > li > a:hover {
+    background-color: rgba(122, 82, 179, 0.1);
+    color: #124bf6;
+  }
+
+  .hamb__field.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamb__field.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  .hamb__field.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+
+  body.noscroll {
+    overflow: hidden;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  header {
+    height: auto;
+  }
+
+  header img {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

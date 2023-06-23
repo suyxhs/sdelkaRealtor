@@ -1,0 +1,41 @@
+input[type="radio"] {
+    position: absolute;
+    left: -9999px;
+  }
+  
+  .filters {
+    text-align: center;
+  }
+  .filters * {
+    display: inline-block;
+  }
+  .filters label {
+    padding: 0.5rem 1rem;
+    margin-bottom: 0.25rem;
+    border-radius: 2rem;
+    width: 182px;
+    height: 42px;
+    line-height: normal;
+    cursor: pointer;
+    transition: all 0.1s;
+    background: var(--color-smoke);
+  }
+  .filters label:hover {
+    background: var(--blue);
+    color: #fff;
+  }
+  
+  .amount-object {
+    width: 100%;
+    padding: 20px;
+  }
+  
+  .amount-object h3,p {
+    font-size: 16px;
+    display: flex;
+  }
+  
+  .amount-object p {
+    color: var(--gray);
+    padding-left: 1%;
+  }

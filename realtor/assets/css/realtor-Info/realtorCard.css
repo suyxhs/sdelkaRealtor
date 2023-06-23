@@ -1,0 +1,56 @@
+.container-realtor {
+  display: flex;
+  margin: 0 auto;
+  margin-top: 30px;
+  border: 1px solid #DADADB;
+  border-radius: 16px;
+  height: 190px;
+  margin-left: 20px;
+  margin-right: 20px;
+  background: #ffffff;
+}
+
+.bar-line__right {
+  flex: 1;
+  margin-left: 15px;
+  margin-top: 10px;
+}
+
+.bar-line__right-text_01 {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  color: #3a3a3b;
+  margin-bottom: 5px;
+}
+
+.bar-line__right-text_02 {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  color: #3a3a3b;
+  margin-bottom: 10px;
+}
+
+.bar-line__right-text_03 {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  color: var(--gray);
+  margin-bottom: 10px;
+}
+
+.bar-line__right-text_04 {
+  font-size: 15px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.bar-line__right-text_05 {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  color: var(--blue);
+}
